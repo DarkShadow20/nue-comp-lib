@@ -30,15 +30,13 @@ iframe
 .nav-container{
   margin-top: -1rem;
 }
-.nav-list-container{
-  margin-left: -55em;
-}
 .nav-wrap {
-  background-color: #20232A;
+    background-color: #20232A;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
+    margin-left: -4rem;
   }
 .brand-logo{
     font-size: 2.5rem;
