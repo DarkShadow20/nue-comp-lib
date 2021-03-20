@@ -1,0 +1,117 @@
+:root{
+    --pri-color:#3B82F6;
+    --suc-color:#28A745;
+    --dang-color:#DC3545;
+    --war-color:#FFC107;
+    --info-color:#17A2B8;
+    --li-color:#1D8AFF;
+}
+
+.btn{
+    padding: 0.8rem 1rem;
+    margin: 0.2rem 0.6rem;
+    border:none;
+    outline: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: var(--pri-color);
+}
+.btn-primary:hover{
+    background-color: #2563EB;
+}
+.btn-success{
+        color: #fff;
+        background-color: var(--suc-color);
+}
+.btn-success:hover{
+    background-color:#059669 ;
+}
+.btn-danger{
+    color: #fff;
+    background-color: var(--dang-color);
+}
+.btn-danger:hover{
+    background-color: #EF4444;
+}
+.btn-warning{
+    color: #fff;
+    background-color: var(--war-color);
+}
+.btn-warning:hover{
+    background-color: #F59E0B;
+}
+.btn-info{
+    color: #fff;
+    background-color: var(--info-color);
+}
+.btn-info:hover{
+    background-color: #059669;
+}
+.btn-link{
+    background-color: transparent;
+    color: var(--li-color);
+}
+.btn-link:hover{
+    background-color: #DBEAFE;
+}
+.btn-icon{
+    background-color: #fff;
+    font-size: large;
+    color: var(--pri-color);
+}
+.btn-icon:hover{
+    background-color: #EFF6FF;
+}
+.btn-float{
+    padding: 0 0.1rem 0 0;
+    border-radius: 50%;
+    position: fixed;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    outline: none;
+    bottom: 1rem;
+    right: 1rem;
+    color: #fff;
+    background-color: #F7397C;
+    font-size: larger;
+}
+.btn-float:hover{
+    background-color: #DB2777;
+}
+
+.btn-outline-primary{
+    background-color: #fff;
+    color: var(--pri-color);
+    border: 1px solid var(--pri-color);
+}
+.btn-outline-success{
+    background-color: #fff;
+    color: var(--suc-color);
+    border: 1px solid var(--suc-color);
+}
+.btn-outline-danger{
+    background-color: #fff;
+    color: var(--dang-color);
+    border: 1px solid var(--dang-color);
+}
+.btn-outline-warning{
+    background-color: #fff;
+    color: var(--war-color);
+    border: 1px solid var(--war-color);
+}
+.btn-outline-info{
+    background-color: #fff;
+    color: var(--info-color);
+    border: 1px solid var(--info-color);
+}
+.btn-large{
+    color: #fff;
+    background-color: var(--pri-color);
+    padding: 1rem 2.2rem;
+    font-size: large;
+}

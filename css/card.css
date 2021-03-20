@@ -1,0 +1,50 @@
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DFDFDF;
+    max-width: 250px;
+    padding: 1rem;
+}
+.shadow{
+    box-shadow: 7px 7px 5px 2px #aaa;
+}
+.card-img-top{
+    border:1px solid #DFDFDF;
+    width: 250px;
+}
+.img-header{
+    position: relative;
+}
+.card-title{
+    margin: 0;
+}
+.card-text{
+    flex-grow: 1;
+}
+.card-close{
+    position: absolute;
+    top: 0.4rem;
+    right: 0.5rem;
+    background-color: inherit;
+}
+
+.img-header .primary-badge{
+    position: absolute;
+    top: 0.4rem;
+    left: 0.5rem;
+}
+.img-header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+}
