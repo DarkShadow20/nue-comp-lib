@@ -151,6 +151,10 @@ iframe
     padding: 2.5rem;
     background-color: #000;
     color: #fff;
+    background-color: #20232A;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: -1rem;
   }
   .fa-heart {
     color: var(--pri-color);
