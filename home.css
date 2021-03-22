@@ -106,7 +106,7 @@ iframe
   }
   .avatar-collection
   {
-    height: 37em; 
+    height: 43em; 
   }
   .badge-collection {
     height: 29em;
@@ -115,13 +115,13 @@ iframe
     margin: 1rem;
   }
   .button-collection{
-    height: 47em;
+    height: 53em;
   }
   .button-collection button{
     margin: 0.9rem 0.5rem;
   }
   .card-collection{
-    height: 145em;
+    height: 159em;
   }
   .card-collection p{
     padding: 0.5rem 0 0 0;
@@ -131,19 +131,19 @@ iframe
     margin-left: -0.1rem;
   }
   .input-collection{
-    height: 46em;
+    height: 51em;
   }
   .input-collection iframe{
     margin: 1rem 0;
   }
   .modal-collection{
-    height: 44em;
+    height: 48em;
   }
   .navigation-collection{
-    height: 46em;
+    height: 51em;
   }
   .typography-collection{
-    height: 90em;
+    height: 94em;
   }
 
   footer{
@@ -181,4 +181,44 @@ iframe
   }
   .how-wrap{
     margin: 2.5rem 0 0 0;
+  }
+  @media only screen and (max-width: 635px) {
+    .nav-wrap {
+      width: 62.6em;
+    }
+    .main-section{
+      margin-left: -3.5rem;
+    }
+    .sidebar{
+      position: sticky;
+      height: 190em;
+      width: 9.5em;
+      margin-left: -4rem;
+      margin-top: 0.1rem;
+      padding-left: 0.1px;
+    }
+    footer{
+      width: 62.6em;
+    }
+    .avatar-collection{
+      height: 40em;
+    }
+    .button-collection{
+      height: 50em;
+    }
+    .card-collection{
+      height: 156em;
+    }
+    .input-collection{
+      height: 49em;
+    }
+    .modal-collection{
+      height: 45em;
+    }
+    .navigation-collection{
+      height: 48em;
+    }
+    .typography-collection{
+      height: 92em;
+    }
   }

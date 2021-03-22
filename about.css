@@ -1,0 +1,19 @@
+@media only screen and (max-width: 635px) {
+    .nav-wrap{
+        width: 66.6em;
+    }
+    footer{
+        position: absolute;
+        width: 63.6em;
+        bottom: -31em;
+    }
+    .what-wrap{
+        padding-left: 1rem;
+    }
+    .how-wrap{
+        padding-left: 1rem;
+    }
+    .how-wrap iframe{
+        padding-left: 1rem;
+    }
+}
