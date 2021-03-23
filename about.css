@@ -1,23 +1,36 @@
-
-
-
-
 @media only screen and (max-width: 635px) {
+    .about-container{
+        width: 100%;
+    }
     .nav-wrap{
-        width: 66.6em;
+        width: 100%;
+    }
+    .brand-logo{
+        margin-left: -2rem;
+        font-size: 25px;
+    }
+    .nav-list-container{
+        margin-left: 2rem;
+    }
+    .nav-list-container li{
+        margin-left: -1rem;
+        font-size: 12px;
+    }
+    .current{
+        margin-left: 1rem;
+        font-size: 14px;
+        margin-right: 1rem;
     }
     footer{
-        position: absolute;
-        width: 63.6em;
-        bottom: -75em;
+        margin-left: 0;
+        width: 100%;
     }
     .what-wrap{
-        padding-left: 1rem;
+        width: 90%;
+        margin-left: 1.3rem;
     }
     .how-wrap{
-        padding-left: 1rem;
-    }
-    .how-wrap iframe{
-        padding-left: 1rem;
+        width: 90%;
+        margin-left: 1.3rem;
     }
 }
