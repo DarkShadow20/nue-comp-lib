@@ -4,6 +4,7 @@
     --error-color:#DC3545;
     --info-color:#17A2B8;
     --warning-color: #FFC107;
+    --font-color:#fff;
 }
 
 .error-badge,.primary-badge,.success-badge,.info-badge,.warning-badge{
@@ -15,33 +16,33 @@
 }
 .error-badge{
     background-color: var(--error-color);
-    color: #fff;
+    color: var(--font-color);
 }
 .primary-badge{
-    color: #fff;
+    color: var(--font-color);
     background-color: var(--primary-color);
 }
 .success-badge{
-    color: #fff;
+    color: var(--font-color);
     background-color: var(--success-color);
 }
 .info-badge{
-    color: #fff;
+    color: var(--font-color);
     background-color: var(--info-color);
 }
 .warning-badge{
-    color: #fff;
+    color: var(--font-color);
     background-color: var(--warning-color);
 }
 
 /* avatar badge */
 .inactive-badge{
     background-color: #EDA11A;
-    border: 2px solid #fff;
+    border: 2px solid var(--font-color);
 }
 .active-badge{
     background-color: #42B782;
-    border: 2px solid #fff;
+    border: 2px solid var(--font-color);
 }
 
 .small-avatar-container,.medium-avatar-container,.large-avatar-container{
