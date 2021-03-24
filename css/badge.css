@@ -5,6 +5,8 @@
     --info-color:#17A2B8;
     --warning-color: #FFC107;
     --font-color:#fff;
+    --inactive-color:#EDA11A;
+    --active-color:#42B782;
 }
 
 .error-badge,.primary-badge,.success-badge,.info-badge,.warning-badge{
@@ -37,11 +39,11 @@
 
 /* avatar badge */
 .inactive-badge{
-    background-color: #EDA11A;
+    background-color: var(--inactive-color);
     border: 2px solid var(--font-color);
 }
 .active-badge{
-    background-color: #42B782;
+    background-color: var(--active-color);
     border: 2px solid var(--font-color);
 }
 
