@@ -42,15 +42,16 @@
 }
 .search-wrapper_input{
     border: none;
-    padding: 0.2rem 1rem;
-    outline: 2px solid #F472B6;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 0.2rem;
 }
 .search-wrapper{
     position: relative;
 }
 .search-wrapper .fa-search{
     position: absolute;
-    top: 0.35rem;
+    top: 0.45rem;
     right: 0.6rem;
     color: grey;
 }

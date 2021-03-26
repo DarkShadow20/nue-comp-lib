@@ -70,7 +70,7 @@ iframe
     overflow-y: hidden;
     height: 100vh;
     background-color:#F7F7F7;
-    width: 31em;
+    width: 15em;
   }
   .sidebar_list {
     margin-left: 2rem;
@@ -103,7 +103,7 @@ iframe
   }
   .avatar-collection
   {
-    height: 43em; 
+    height: 40em; 
   }
   .badge-collection {
     height: 29em;
@@ -112,13 +112,13 @@ iframe
     margin: 1rem;
   }
   .button-collection{
-    height: 53em;
+    height: 50em;
   }
   .button-collection button{
     margin: 0.9rem 0.5rem;
   }
   .card-collection{
-    height: 136em;
+    height: 138em;
   }
   .card-collection p{
     padding: 0.5rem 0 0 0;
@@ -128,31 +128,29 @@ iframe
     margin-left: -0.1rem;
   }
   .input-collection{
-    height: 51em;
+    height: 45em;
   }
   .input-collection iframe{
     margin: 1rem 0;
   }
   .modal-collection{
-    height: 48em;
+    height: 45em;
   }
   .navigation-collection{
-    height: 51em;
+    height: 45em;
   }
   .typography-collection{
     height: 94em;
   }
 
   footer{
-    margin-top: 2rem;
+    
     padding: 2.5rem;
     background-color: #000;
     color: #fff;
     background-color: #20232A;
-    margin-left: -1rem;
-    margin-right: -3rem;
-    margin-bottom: -1rem;
-    width: 119.9em;
+
+    width: 100%;
   }
   .fa-heart {
     color: var(--pri-color);
