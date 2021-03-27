@@ -103,7 +103,7 @@ iframe
   }
   .avatar-collection
   {
-    height: 40em; 
+    height: 45em; 
   }
   .badge-collection {
     height: 29em;
@@ -112,7 +112,7 @@ iframe
     margin: 1rem;
   }
   .button-collection{
-    height: 50em;
+    height: 53em;
   }
   .button-collection button{
     margin: 0.9rem 0.5rem;
@@ -128,19 +128,19 @@ iframe
     margin-left: -0.1rem;
   }
   .input-collection{
-    height: 45em;
+    height: 52em;
   }
   .input-collection iframe{
     margin: 1rem 0;
   }
   .modal-collection{
-    height: 45em;
+    height: 49em;
   }
   .navigation-collection{
-    height: 45em;
+    height: 50em;
   }
   .typography-collection{
-    height: 94em;
+    height: 95em;
   }
 
   footer{
