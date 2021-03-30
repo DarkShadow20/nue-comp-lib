@@ -1,5 +1,6 @@
 .modal{
-    max-width: 35%;
+    max-width: 100%;
+    width: 20rem;
     border: 1px solid #F1F1F1;
 }
 .modal-footer{
