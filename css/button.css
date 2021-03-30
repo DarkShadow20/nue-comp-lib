@@ -82,7 +82,7 @@
     border: none;
     outline: none;
     bottom: 1rem;
-    left: 1rem;
+    right: 1rem;
     color: var(--font-color);
     background-color: #F7397C;
     font-size: larger;
