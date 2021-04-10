@@ -1,0 +1,29 @@
+.list-non-bullet{
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+.list-non-bullet li{
+    padding: 0.3rem ;
+}
+.list-flex{
+    display: flex;
+}
+.list-flex li{
+    padding: 0rem 0.2rem;
+}
+
+.list-stack{
+    border-radius:0.5px;
+    width: fit-content;
+}
+.list-stack li{
+    background-color: #DBEAFE;
+    color: var(--pri-color);
+    padding: 1.3rem;
+    border: 1px solid #93C5FD;
+    cursor: pointer;
+}
+.list-stack li:hover{
+    background-color: #60A5FA;
+    color: white;
+}
