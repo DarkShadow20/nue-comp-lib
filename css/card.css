@@ -21,6 +21,7 @@
 .card-img-top{
     border:1px solid #DFDFDF;
     width: 250px;
+    height:350px;
 }
 .img-header{
     position: relative;
