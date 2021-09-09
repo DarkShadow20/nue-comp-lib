@@ -4,6 +4,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.heading{
+  margin-left:1.2rem;
+}
+.examples{
+  margin-left:0rem;
+}
 .link{
   margin: 0 0.5rem;
 }
@@ -118,7 +124,7 @@ iframe
     margin: 0.9rem 0.5rem;
   }
   .card-collection{
-    height: 138em;
+    height: 150em;
   }
   .card-collection p{
     padding: 0.5rem 0 0 0;
@@ -128,13 +134,13 @@ iframe
     margin-left: -0.1rem;
   }
   .input-collection{
-    height: 52em;
+    height: 45em;
   }
   .input-collection iframe{
     margin: 1rem 0;
   }
   .modal-collection{
-    height: 49em;
+    height: 42em;
   }
   .navigation-collection{
     height: 50em;
