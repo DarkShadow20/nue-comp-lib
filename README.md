@@ -1,3 +1,11 @@
-# NueUI Component Library
+# Welcome to [NueUI](https://nueui-v1.netlify.app/)
 
-A handcrafted component library made in Vanilla CSS to make your designing journey hassle free and fast.
+
+- Helps you build UI faster
+- Easy to use
+- Easy to customize components
+
+# Using PopCube-Ui
+- Copy the CSS file URL, the javascript code and link in your HTML
+- Here is the css file : <link rel="stylesheet" href="https://nueui-v1.netlify.app/main.css">
+- That's It ! START BUILDING !
